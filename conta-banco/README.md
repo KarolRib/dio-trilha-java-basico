@@ -23,7 +23,7 @@ O `ContaBanco` é um programa simples que simula a abertura de uma conta bancár
 * **Java 21**
 * **`java.util.Scanner`** para entrada de dados
 * **Git & GitHub** para versionamento de código
-* [Editor de Markdown](https://readme.so/pt) para criar o meu README
+* [Editor de Markdown](https://readme.so/pt) para criar o meu README.md
 
 
 ## 🛠️ Como Executar
