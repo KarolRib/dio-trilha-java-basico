@@ -1,18 +1,47 @@
-## Getting Started
+# Projeto ContaBanco - Desafio de Sintaxe Java da DIO
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto foi desenvolvido como parte do desafio de sintaxe da trilha de Java Básico da [Digital Innovation One](https://www.dio.me/).
 
-## Folder Structure
+## 📝 Descrição do Projeto
 
-The workspace contains two folders by default, where:
+O `ContaBanco` é um programa simples que simula a abertura de uma conta bancária via terminal. Ele foi criado para exercitar os conhecimentos fundamentais da sintaxe da linguagem Java, como declaração de variáveis, tipos de dados e interação com o usuário através do console.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🚀 Funcionalidades
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+* Recebe os seguintes dados do usuário via terminal:
+    * **Número da Conta** (Inteiro)
+    * **Agência** (Texto)
+    * **Nome do Cliente** (Texto)
+    * **Saldo** (Decimal)
+* Valida entradas de números decimais para aceitar tanto **ponto (`.`)** quanto **vírgula (`,`)**.
+* Exibe uma mensagem final formatada com todos os dados inseridos pelo usuário.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 💻 Tecnologias Utilizadas
 
-## Dependency Management
+* **Java 21**
+* **`java.util.Scanner`** para entrada de dados
+* Controle de Fluxo e Manipulação de Tipos de Dados Primitivos
+* **Git & GitHub** para versionamento de código
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 🛠️ Como Executar
+
+Para executar este projeto localmente, siga os passos abaixo:
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/KarolRib/dio-trilha-java-basico.git](https://github.com/KarolRib/dio-trilha-java-basico.git)
+
+    ```
+
+2.  **Navegue até o diretório do projeto.**
+
+3.  **Compile o arquivo Java:**
+    ```bash
+    javac ContaTerminal.java
+    ```
+
+4.  **Execute o programa:**
+    ```bash
+    java ContaTerminal
+    ```
+O programa iniciará no seu terminal e solicitará as informações da conta.
