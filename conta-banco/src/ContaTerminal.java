@@ -7,7 +7,8 @@ public class ContaTerminal {
         Scanner scanner = new Scanner(System.in);
 
         // Pede ao cliente que informe o número da sua agência
-        System.out.println("Olá! Seja bem vindo (a)! Por favor, informe o número da sua agência com dígito (Exemplo: 1234-5): ");
+        System.out.println(
+                "Olá! Seja bem vindo (a)! Por favor, informe o número da sua agência com dígito (Exemplo: 1234-5): ");
         // Lê a agência informada como texto (String)
         var agencia = scanner.nextLine();
 
@@ -40,8 +41,8 @@ public class ContaTerminal {
 
         // Exibe a mensagem final formatada com os dados do cliente
         System.out.printf(
-                "Olá %s, agradecemos por criar uma conta em nosso Banco, sua agência é %s, \n" +
-                        "sua conta é %d e seu saldo de R$ %.2f já está disponível para saque.",
+                "Olá %s, agradecemos por criar uma conta em nosso Banco, sua agência é %s,\n" + 
+                "sua conta é %d e seu saldo de R$ %.2f já está disponível para saque.",
                 nomeCliente,
                 agencia,
                 numeroConta,
